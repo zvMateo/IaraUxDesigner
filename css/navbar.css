@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --theme-color: white;
+  --color-font-principal: #2b299b;
+  --color-font-básico: black;
+  --color-font-especial: #f58a72;
+  --box-shadow-color: #646464;
+  --font-type-principal: "Montserrat", sans-serif;
+  --font-type-poppins: "Poppins", sans-serif;
+  --font-type-especial: "Italiana", serif;
+}
+
+.topHeader {
+  box-shadow: 0px 1px 21px 2px rgba(100, 100, 100, 0.39);
+  -webkit-box-shadow: 0px 1px 21px 2px rgba(100, 100, 100, 0.39);
+  -moz-box-shadow: 0px 1px 21px 2px rgba(100, 100, 100, 0.39);
+  position: fixed;
+  background-color: var(--theme-color);
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: var(--font-type-especial);
+}
+
+/* LOGO */
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/* MENU */
+
+.menu {
+  list-style: none;
+  text-align: right;
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  top: 0%;
+  margin: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--color-font-básico);
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.menu li :hover {
+  color: var(--color-font-especial);
+}
+
+/*BOTONES MENU*/
+
+.openMenu,
+.closeMenu {
+  display: none;
+}
+
+/*MOBILE*/
+
+@media (max-width: 950px) {
+  /* MENU */
+
+  .menu {
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: var(--color-font-especial);
+    height: 100%;
+    overflow-y: auto;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+  }
+
+  .menu a {
+    color: var(--color-font-básico);
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 60px;
+  }
+
+  /*BOTONES MENU*/
+
+  .openMenu,
+  .closeMenu {
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .closeMenu {
+    align-self: flex-end;
+    padding: 38px 14px;
+  }
+
+  .menuOpened{
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .openMenu:focus:not(:focus-visible),
+  .closeMenu:focus:not(:focus-visible) {
+    outline: none;
+  }
+}
