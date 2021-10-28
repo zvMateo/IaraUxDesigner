@@ -98,8 +98,8 @@
   .menu a {
     color: var(--color-font-básico);
     font-weight: bold;
-    font-size: 1.3rem;
-    line-height: 60px;
+    font-size: 24px;
+    line-height: 70px;
   }
 
   /*BOTONES MENU*/

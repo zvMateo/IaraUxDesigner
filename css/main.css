@@ -37,7 +37,6 @@ div {
 /* TITULO PRINCIPAL */
 
 .profileTitle {
-  
   font-weight: bold;
   font-size: 35px;
   margin: 0px;
@@ -53,7 +52,8 @@ div {
 
 .descriptionProfile {
   color: var(--color-font-básico);
-  font-weight: 500;
+  font-family: var(--font-type-especial);
+  font-weight: bold;
   text-align: justify;
   margin: 24px 100px;
 }
@@ -77,4 +77,12 @@ div {
   box-shadow: 0px -7px 21px 2px rgba(100,100,100,0.84);
 -webkit-box-shadow: 0px -7px 21px 2px rgba(100,100,100,0.84);
 -moz-box-shadow: 0px -7px 21px 2px rgba(100,100,100,0.84);
+}
+
+/*MOBILE*/
+
+@media (max-width: 950px){
+  .footer{
+    box-shadow: none;
+  }
 }
