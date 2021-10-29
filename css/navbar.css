@@ -122,6 +122,10 @@
     pointer-events: all;
   }
 
+  .menuOpenedButton{
+    display: none;
+  }
+
   .openMenu:focus:not(:focus-visible),
   .closeMenu:focus:not(:focus-visible) {
     outline: none;

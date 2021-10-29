@@ -138,6 +138,26 @@ div {
   transition-delay: 0.75s;
 }
 
+/*BOTÓN MOBILE*/
+@media (max-width: 950px){
+  .profileBtn {
+    font-family: var(--font-type-principal);
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: 0.1s;
+    border: none;
+    padding: 10px;
+    text-decoration:none;
+    border-radius: 10px;
+    box-shadow: 0px 10px 14px -7px var(--box-shadow-color);
+    cursor: pointer;
+  }
+}
+
 /*IMG PRINCIPAL*/
 
 .profileImg {
@@ -159,9 +179,10 @@ div {
   -moz-box-shadow: 0px -7px 21px 2px rgba(100, 100, 100, 0.84);
 }
 
-/*MOBILE*/
+/*FOOTER MOBILE */
 
 @media (max-width: 950px) {
+
   .footer {
     box-shadow: none;
   }
