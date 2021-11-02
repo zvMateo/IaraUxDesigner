@@ -1,19 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-:root {
-  --theme-color: white;
-  --color-font-principal: #2b299b;
-  --color-font-básico: black;
-  --color-font-especial: #f58a72;
-  --box-shadow-color: #646464;
-  --font-type-principal: "Montserrat", sans-serif;
-  --font-type-poppins: "Poppins", sans-serif;
-  --font-type-especial: "Italiana", serif;
-}
 
 .topHeader {
   box-shadow: 0px 1px 21px 2px rgba(100, 100, 100, 0.39);
@@ -34,7 +19,7 @@
   padding: 10px;
   max-width: 1024px;
   margin: 0 auto;
-  font-family: var(--font-type-especial);
+  font-family: var(--font-type-principal);
 }
 
 /* LOGO */
@@ -60,13 +45,13 @@
 
 .menu a {
   text-decoration: none;
-  color: var(--color-font-básico);
+  color: var(--color-font-base);
   font-weight: bold;
   font-size: 1.3rem;
 }
 
 .menu li :hover {
-  color: var(--color-font-especial);
+  color: var(--color-principal);
 }
 
 /*BOTONES MENU*/
@@ -88,7 +73,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    background-color: var(--color-font-especial);
+    background-color: var(--color-principal);
     height: 100%;
     overflow-y: auto;
     opacity: 0;
@@ -97,7 +82,7 @@
   }
 
   .menu a {
-    color: var(--color-font-básico);
+    color: var(--color-base);
     font-weight: bold;
     font-size: 24px;
     line-height: 80px;

@@ -6,19 +6,19 @@
 
 :root {
   --theme-color: white;
-  --color-font-principal: #2b299b;
-  --color-font-básico: black;
-  --color-font-especial: #f58a72;
+  --color-complementario: #73F598;
+  --color-base: black;
+  --color-principal: #f58a72;
   --box-shadow-color: #646464;
-  --font-type-principal: "Montserrat", sans-serif;
+  --font-type-base: "Montserrat", sans-serif;
   --font-type-poppins: "Poppins", sans-serif;
-  --font-type-especial: "Italiana", serif;
+  --font-type-principal: "Italiana", serif;
 }
 
 body {
   background-color: var(--theme-color);
-  color: var(--color-font-básico);
-  font-family: var(--font-type-principal);
+  color: var(--color-base);
+  font-family: var(--font-type-base);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
