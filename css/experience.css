@@ -59,9 +59,11 @@
     border-radius: 10%;*/
     background: rgba( 255, 255, 255, 0.1 );
     backdrop-filter: blur( 0px );
+    box-shadow: 4px 4px 13px 1px rgba(168,82,62,0.64);
+-webkit-box-shadow: 4px 4px 13px 1px rgba(168,82,62,0.64);
+-moz-box-shadow: 4px 4px 13px 1px rgba(168,82,62,0.64);
     -webkit-backdrop-filter: blur( 0px );
     border-radius: 30px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 @media (min-width: 950px){
@@ -126,5 +128,6 @@
         border: none;
         background: none;
         max-width: 500px;
+        box-shadow: none;
     }
 }
