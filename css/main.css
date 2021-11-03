@@ -15,6 +15,10 @@
   --font-type-principal: "Italiana", serif;
 }
 
+section[id]{
+  scroll-margin-top: 190px;
+}
+
 body {
   background-color: var(--theme-color);
   color: var(--color-base);
