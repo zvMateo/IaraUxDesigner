@@ -1,14 +1,13 @@
-
-
   .skillsTitle{
       font-family: var(--font-type-principal);
       font-weight: bold;
       font-size: 30px;
       text-align: center;
+      margin-top: 30px;
   }
   .skillsList{
       list-style: none;
-      margin-top: 40px;
+      margin-top: 20px;
       padding: 0;
       display: flex;
       flex-wrap: wrap;

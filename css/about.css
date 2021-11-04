@@ -1,0 +1,78 @@
+.aboutMe{
+    
+}
+
+.aboutTitle{
+    font-family: var(--font-type-principal);
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.aboutDescription {
+    text-align: center;
+    color: var(--color-font-base);
+    font-family: var(--font-type-base);
+    line-height: 1.5;
+    font-size: 18px;
+    max-width: 450px;
+    margin: 20px auto;
+    font-weight: 500;
+    padding-bottom: 20px;
+    border-bottom: dotted 2px var(--color-principal);
+    border-radius: 15%;
+  }
+
+  .aboutDate{
+      margin-top: 40px;
+      font-family: var(--font-type-principal);
+      color: var(--color-complementario);
+      opacity: 100%;
+      font-size: 28px;
+  }
+
+  .aboutDateAutor{
+      display: block;
+      text-align: right;
+      margin-top: 20px;
+      opacity: 80%;
+  }
+
+@media (min-width: 950px){
+
+    .aboutTitle{
+        font-size: 40px;
+    }
+
+    .aboutDescription {
+        text-align: center;
+        color: var(--color-font-base);
+        font-family: var(--font-type-base);
+        line-height: 1.5;
+        font-size: 20px;
+        max-width: 980px;
+        margin: 30px auto;
+        font-weight: 500;
+        padding-bottom: 30px;
+        border-bottom: dotted 2px var(--color-principal);
+        border-radius: 15%;
+      }
+    
+      .aboutDate{
+    
+          font-family: var(--font-type-principal);
+          color: var(--color-complementario);
+          opacity: 100%;
+          font-size: 36px;
+          max-width: 980px;
+          margin: 40px auto 0 auto;
+      }
+    
+      .aboutDateAutor{
+          font-size: 34px;
+          display: block;
+          text-align: right;
+          margin-top: 20px;
+          opacity: 80%;
+      }
+}
