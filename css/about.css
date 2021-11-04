@@ -3,6 +3,7 @@
   font-weight: bold;
   font-size: 30px;
   text-align: center;
+  padding-top: 30px;
 }
 
 .aboutDescription {
@@ -12,9 +13,9 @@
   line-height: 1.5;
   font-size: 18px;
   max-width: 450px;
-  margin: 20px auto;
+  margin: 25px auto;
   font-weight: 500;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .aboutDate {
@@ -35,13 +36,14 @@
 @media (min-width: 950px) {
   .aboutTitle {
     font-size: 40px;
+    padding-top: 10px;
   }
 
   .aboutDescription {
     text-align: justify;
     font-size: 20px;
     max-width: 980px;
-    margin: 30px auto;
+    margin: 40px auto;
     padding: 0 10px 30px 10px;
   }
 
