@@ -6,16 +6,16 @@
 
 :root {
   --theme-color: white;
-  --color-complementario: #B36554;
+  --color-complementario: #b36554;
   --color-base: black;
-  --color-principal: #FFA591;
+  --color-principal: #ffa591;
   --box-shadow-color: #646464;
   --font-type-base: "Montserrat", sans-serif;
   --font-type-poppins: "Poppins", sans-serif;
   --font-type-principal: "Italiana", serif;
 }
 
-section[id]{
+section[id] {
   scroll-margin-top: 190px;
 }
 
@@ -29,26 +29,25 @@ body {
   padding-top: 150px;
 }
 
-.horizontalPadding{
+.horizontalPadding {
   padding-left: 25px;
   padding-right: 25px;
 }
-.verticalPadding{
+.verticalPadding {
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-@media (min-width: 950px){
-  .horizontalPadding{
+@media (min-width: 950px) {
+  .horizontalPadding {
     padding-left: 70px;
     padding-right: 70px;
   }
-  .verticalPadding{
+  .verticalPadding {
     padding-top: 40px;
     padding-bottom: 70px;
   }
 }
-
 
 /*div {
   min-height: 80%;

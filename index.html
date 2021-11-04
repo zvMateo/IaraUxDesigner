@@ -1,130 +1,172 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Iara Lestussi</title>
+    <link
+      rel="shortcut icon"
+      href="img/favicon/favicon.jpg"
+      type="image/x-icon"
+    />
+    <!--NORMALIZE CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <!-- MIS ESTILOS CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/experience.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <!--FUENTE PRINCIPAL-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FUENTE POPPINS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!--FUENTE TITULOS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
+      rel="stylesheet"
+    />
+    <!--JAVASCRIPT NAV-->
+    <script defer src="js/navBarMobile.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio | Iara Lestussi</title>
-  <link rel="shortcut icon" href="img/favicon/favicon.jpg" type="image/x-icon" />
-  <!--NORMALIZE CSS-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
-  <!-- MIS ESTILOS CSS -->
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="css/navbar.css" />
-  <link rel="stylesheet" href="css/profile.css" />
-  <link rel="stylesheet" href="css/experience.css" />
-  <link rel="stylesheet" href="css/about.css" />
-  <link rel="stylesheet" href="css/skills.css" />
-  <!--FUENTE PRINCIPAL-->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
-    rel="stylesheet" />
-  <!-- FUENTE POPPINS-->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
-    rel="stylesheet" />
-  <!--FUENTE TITULOS-->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet" />
-  <!--JAVASCRIPT NAV-->
-  <script defer src="js/navBarMobile.js"></script>
-</head>
-
-<body>
-  <header class="topHeader">
-    <nav class="topNav">
-      <a href="" class="logo">
-        <img height="100" src="img/logo/Logo1.jpg" alt="Logo" />
-      </a>
-      <button class="openMenu" aria-label="Abrir Menú">
-        <img src="img/button/menu.png" alt="Abrir menú" />
-      </button>
-      <ul class="menu">
-        <button class="closeMenu" aria-label="Cerrar Menú">
-          <img src="img/button/cancel.png" alt="Cerrar menú" />
+  <body>
+    <header class="topHeader">
+      <nav class="topNav">
+        <a href="#profile" class="logo">
+          <!--<img height="100" src="img/logo/Logo1.jpg" alt="Logo" />-->
+          <h2>I</h2>
+        </a>
+        <button class="openMenu" aria-label="Abrir Menú">
+          <img src="img/button/menu.png" alt="Abrir menú" />
         </button>
-        <li><a href="#profile">Perfil</a></li>
-        <li><a href="#experiences">Experiencia</a></li>
-        <li><a href="#aboutMe">Sobre mí</a></li>
-        <li><a href="#contact">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
-  <div class="horizontalPadding verticalPadding">
-    <section class="profile" id="profile">
-      <div class="profileInfo">
-        <h1 class="profileTitle">
-        <span class="profileTitleBlack">Iara Lestussi |</span>
-        UX Design
-        </h1>
-        <p class="descriptionProfile">
-        Soy una apasionada por el diseño enfocada en la investigación, la capacitación constante es parte de mi rutina. Hace tiempo decidí hacer de las soluciones digitales mi profesión y pretendo dedicar mi vida a la comprensión de las necesidades de los usuarios.
-        </p>
-        <button class="profileBtn">
-          <span id="span1"></span>
-          <span id="span2"></span>
-          <span id="span3"></span>
-          <span id="span4"></span>
-          Descargar CV
-        </button>
-      </div>
-      <div class="profileImgSection">
-        <img class="profileImg" src="img/main/profileImg.svg" alt="diseño ux">
-      </div>
-    </section>
-  </div>
-
-  <section class="experiences" id="experiences">
-    <img src="img/experience/wave2.svg" alt="división" class="wave">
-    <div class="experienceBody">
-      <h2 class="experienceTitle">Experiencia</h2>
-      <div class="experienceGrid">
-        <div class="empty"></div>
-        <div class="line"></div>
-        <div class="experience">
-          <div class="experienceDate">2020-2021</div>
-          <div class="experienceCompany">Corvial</div>
-          <div class="experiencePosition">Asistente de Diseño Gráfico</div>
-          <div class="experienceDescription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, ipsa! Suscipit excepturi autem similique ullam aliquid optio exercitationem fuga sequi, provident eum reiciendis impedit repudiandae quo veritatis voluptates iure blanditiis.</div>
+        <ul class="menu">
+          <button class="closeMenu" aria-label="Cerrar Menú">
+            <img src="img/button/cancel.png" alt="Cerrar menú" />
+          </button>
+          <li><a href="#profile">Perfil</a></li>
+          <li><a href="#experiences">Experiencia</a></li>
+          <li><a href="#aboutMe">Sobre mí</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="horizontalPadding verticalPadding">
+      <section class="profile" id="profile">
+        <div class="profileInfo">
+          <h1 class="profileTitle">
+            <span class="profileTitleBlack">Iara Lestussi |</span>
+            UX Design
+          </h1>
+          <p class="descriptionProfile">
+            Soy una apasionada por el diseño enfocada en la investigación, la
+            capacitación constante es parte de mi rutina. Hace tiempo decidí
+            hacer de las soluciones digitales mi profesión y pretendo dedicar mi
+            vida a la comprensión de las necesidades de los usuarios.
+          </p>
+          <button class="profileBtn">
+            <span id="span1"></span>
+            <span id="span2"></span>
+            <span id="span3"></span>
+            <span id="span4"></span>
+            Descargar CV
+          </button>
         </div>
-        <div class="experience experienceLeft">
-          <div class="experienceDate">2020-2021</div>
-          <div class="experienceCompany">Proyecto UX</div>
-          <div class="experiencePosition">Diseñadora UX-UI</div>
-          <div class="experienceDescription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, ipsa! Suscipit excepturi autem similique ullam aliquid optio exercitationem fuga sequi, provident eum reiciendis impedit repudiandae quo veritatis voluptates iure blanditiis.</div>
+        <div class="profileImgSection">
+          <img
+            class="profileImg"
+            src="img/main/profileImg.svg"
+            alt="diseño ux"
+          />
         </div>
-        <div class="line"></div>
-        <div class="empty"></div>
-        <div class="empty"></div>
-        <div class="line"></div>
-        <div class="experience">
-          <div class="experienceDate">2020-2021</div>
-          <div class="experienceCompany">Proyecto UX Research</div>
-          <div class="experiencePosition">UX Researcher</div>
-          <div class="experienceDescription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, ipsa! Suscipit excepturi autem similique ullam aliquid optio exercitationem fuga sequi, provident eum reiciendis impedit repudiandae quo veritatis voluptates iure blanditiis.</div>
-        </div>
-      </div>
+      </section>
     </div>
-    <img src="img/experience/waveBottom2.svg" alt="división" class="wave waveBottom">
-  </section>
-  
-  <div class="horizontalPadding verticalPadding">
-    <section class="aboutMe" id="aboutMe">
-      <h2 class="aboutTitle">Sobre Mí</h2>
-      <p class="aboutDescription">
-        Soy Iara, vivo en Córdoba, Argentina. Hablo inglés fluido y me interesan los proyectos de trabajo en y entre equipos. Creo en la tecnologia y su potencial para cubrir las necesidades de las personas con la mejor experiencia posible. 
-      </p>
-      <h2 class="aboutDate">
-        "Las personas que ignoran el diseño también ignoran a las personas." <span class="aboutDateAutor">- Frank Chimero, Designer.</span>
-      </h2>
+
+    <section class="experiences" id="experiences">
+      <img src="img/experience/wave2.svg" alt="división" class="wave" />
+      <div class="experienceBody">
+        <h2 class="experienceTitle">Experiencia</h2>
+        <div class="experienceGrid">
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experienceDate">2020-2021</div>
+            <div class="experienceCompany">Corvial</div>
+            <div class="experiencePosition">Asistente de Diseño Gráfico</div>
+            <div class="experienceDescription">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime,
+              ipsa! Suscipit excepturi autem similique ullam aliquid optio
+              exercitationem fuga sequi, provident eum reiciendis impedit
+              repudiandae quo veritatis voluptates iure blanditiis.
+            </div>
+          </div>
+          <div class="experience experienceLeft">
+            <div class="experienceDate">2020-2021</div>
+            <div class="experienceCompany">Proyecto UX</div>
+            <div class="experiencePosition">Diseñadora UX-UI</div>
+            <div class="experienceDescription">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime,
+              ipsa! Suscipit excepturi autem similique ullam aliquid optio
+              exercitationem fuga sequi, provident eum reiciendis impedit
+              repudiandae quo veritatis voluptates iure blanditiis.
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experienceDate">2020-2021</div>
+            <div class="experienceCompany">Proyecto UX Research</div>
+            <div class="experiencePosition">UX Researcher</div>
+            <div class="experienceDescription">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime,
+              ipsa! Suscipit excepturi autem similique ullam aliquid optio
+              exercitationem fuga sequi, provident eum reiciendis impedit
+              repudiandae quo veritatis voluptates iure blanditiis.
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="img/experience/waveBottom2.svg"
+        alt="división"
+        class="wave waveBottom"
+      />
     </section>
-  </div>
+
+    <div class="horizontalPadding verticalPadding">
+      <section class="aboutMe" id="aboutMe">
+        <h2 class="aboutTitle">Sobre Mí</h2>
+        <p class="aboutDescription">
+          Soy Iara, vivo en Córdoba, Argentina. Hablo inglés fluido y me
+          interesan los proyectos de trabajo en y entre equipos. Creo en la
+          tecnologia y su potencial para cubrir las necesidades de las personas
+          con la mejor experiencia posible.
+        </p>
+        <h2 class="aboutDate">
+          "Las personas que ignoran el diseño también ignoran a las personas."
+          <span class="aboutDateAutor">- Frank Chimero, Designer.</span>
+        </h2>
+      </section>
+    </div>
 
     <section class="skills">
       <h2 class="skillsTitle">Habilidades</h2>
@@ -142,23 +184,22 @@
       </ul>
     </section>
 
-  <div class="horizontalPadding verticalPadding">
-    <section class="contact" id="contact">
-      <form action="">
-        <input type="text" name="" id="" placeholder="Ingrese su nombre">
-      </form>
-    </section>
-  </div>
+    <div class="horizontalPadding verticalPadding">
+      <section class="contact" id="contact">
+        <form action="">
+          <input type="text" name="" id="" placeholder="Ingrese su nombre" />
+        </form>
+      </section>
+    </div>
 
-  <!--FOOTER-->
-  <!--<img class="profileImgFooter1" src="img/footer/Img-footer1.svg" alt="">
+    <!--FOOTER-->
+    <!--<img class="profileImgFooter1" src="img/footer/Img-footer1.svg" alt="">
   <img class="profileImgFooter2" src="img/footer/Img-footer2.svg" alt="">-->
 
-  <footer class="footer">
-    <div>
-      <h2 class="footerTitle">Portfolio | Iara Lestussi</h2>
-    </div>
-  </footer>
-</body>
-
+    <footer class="footer">
+      <div>
+        <h2 class="footerTitle">Portfolio | Iara Lestussi</h2>
+      </div>
+    </footer>
+  </body>
 </html>
