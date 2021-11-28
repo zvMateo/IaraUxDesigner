@@ -1,7 +1,7 @@
 .contactSection{
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .contact {
@@ -25,15 +25,11 @@
   margin-bottom: 20px;
 }
 .contactEmail:hover{
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(0px);
-  box-shadow: 4px 4px 13px 1px rgba(168, 82, 62, 0.64);
-  -webkit-box-shadow: 4px 4px 13px 1px rgba(168, 82, 62, 0.64);
-  -moz-box-shadow: 4px 4px 13px 1px rgba(168, 82, 62, 0.64);
-  -webkit-backdrop-filter: blur(0px);
+  color: var(--theme-color);
 }
 
-.contactRedes{
-  display: block;
-  margin:20px;
+.contactRedes img{
+  text-align: center;
+  margin: 20px 2px 0px 4px;
+  
 }
