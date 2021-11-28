@@ -6,7 +6,7 @@
 
 :root {
   --theme-color: white;
-  --color-complementario: #b36554;
+  --color-complementario: #DF998A;
   --color-base: black;
   --color-principal: #ffa591;
   --box-shadow-color: #646464;
@@ -15,8 +15,16 @@
   --font-type-principal: "Italiana", serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 section[id] {
   scroll-margin-top: 190px;
+}
+
+section[id = experiences] {
+  scroll-margin-top: 80px;
 }
 
 body {
@@ -49,45 +57,23 @@ body {
   }
 }
 
-/*div {
-  min-height: 80%;
-}*/
-
-/* FOOTER */
-
-/*
-.profileImgFooter1 {
-  position: absolute;
-  width: 80%;
-  max-width: 350px;
-  bottom: 0%;
-  right: 55px;
-  z-index: -1;
-}
-
-.profileImgFooter2 {
-  position: absolute;
-  max-width: 350px;
-  bottom: 0%;
-  left: 55px;
-  z-index: -1;
-  margin-top: -70px;
-}
-*/
-
 .footer {
   z-index: 1;
   text-align: center;
   color: black;
   bottom: 0%;
   width: 100%;
-  padding: 50px;
+  padding: 20px;
 }
 
-/*FOOTER MOBILE */
+/*MOBILE */
 
 @media (max-width: 950px) {
   .footer {
     box-shadow: none;
+  }
+
+  section[id] {
+    scroll-margin-top: 120px;
   }
 }

@@ -10,3 +10,12 @@ function toggleMenu(){
 
 openMenuBtn.addEventListener("click",toggleMenu);
 closeMenuBtn.addEventListener("click",toggleMenu);
+
+
+const menuLinks = document.querySelectorAll('.menu a[href^="#"]');
+
+menuLinks.forEach(menuLink => {
+    menuLink.addEventListener("click", function(){
+        menu.classList.remove("menuOpened");
+    })
+});

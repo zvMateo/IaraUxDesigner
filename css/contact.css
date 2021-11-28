@@ -1,0 +1,39 @@
+.contactSection{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.contact {
+  background-color: var(--color-principal);
+  text-align: center;
+  width: 100%;
+}
+
+.contactTitle {
+  font-family: var(--font-type-principal);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin: 25px;
+  color: var(--theme-color);
+}
+
+.contactEmail{
+  text-decoration: none;
+  color: var(--color-base);
+  margin-bottom: 20px;
+}
+.contactEmail:hover{
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0px);
+  box-shadow: 4px 4px 13px 1px rgba(168, 82, 62, 0.64);
+  -webkit-box-shadow: 4px 4px 13px 1px rgba(168, 82, 62, 0.64);
+  -moz-box-shadow: 4px 4px 13px 1px rgba(168, 82, 62, 0.64);
+  -webkit-backdrop-filter: blur(0px);
+}
+
+.contactRedes{
+  display: block;
+  margin:20px;
+}
