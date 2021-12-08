@@ -1,3 +1,6 @@
 # IaraUxDesigner
 Portfolio Iara Lestussi Ux Designer
-Este es un proyecto para realizar el portfolio de una diseñadora ux con Html, CSS y Javascript.
+Proyecto de portfolio de diseñadora ux con Html, CSS y Javascript.
+
+
+https://gastonexc.github.io/IaraUxDesigner/
