@@ -1,4 +1,4 @@
-.contactSection{
+.contactSection {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
@@ -19,17 +19,16 @@
   color: var(--theme-color);
 }
 
-.contactEmail{
+.contactEmail {
   text-decoration: none;
   color: var(--color-base);
   margin-bottom: 20px;
 }
-.contactEmail:hover{
+.contactEmail:hover {
   color: var(--theme-color);
 }
 
-.contactRedes img{
+.contactRedes img {
   text-align: center;
   margin: 20px 2px 0px 4px;
-  
 }

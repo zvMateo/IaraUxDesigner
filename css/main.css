@@ -6,7 +6,7 @@
 
 :root {
   --theme-color: white;
-  --color-complementario: #DF998A;
+  --color-complementario: #df998a;
   --color-base: black;
   --color-principal: #ffa591;
   --box-shadow-color: #646464;
@@ -15,7 +15,7 @@
   --font-type-principal: "Italiana", serif;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -23,7 +23,7 @@ section[id] {
   scroll-margin-top: 190px;
 }
 
-section[id = experiences] {
+section[id="experiences"] {
   scroll-margin-top: 80px;
 }
 
@@ -63,20 +63,20 @@ body {
   color: black;
   bottom: 0%;
   width: 100%;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
   font-family: var(--font-type-principal);
 }
 
-.footer h3{
+.footer h3 {
   margin-top: 10px;
 }
 
-.footer h3 a{
+.footer h3 a {
   text-decoration: none;
   color: var(--color-base);
 }
 
-.footer h3 :hover{
+.footer h3 :hover {
   color: var(--color-principal);
 }
 

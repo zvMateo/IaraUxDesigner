@@ -33,6 +33,15 @@
   opacity: 80%;
 }
 
+.aboutImage{
+  padding: 20px;
+}
+
+.aboutImage img{
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
 @media (min-width: 950px) {
   .aboutTitle {
     font-size: 40px;
